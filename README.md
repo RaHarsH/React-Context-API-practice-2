@@ -44,7 +44,7 @@ This structure allowed me to easily manage global state related to theming. The 
 In conclusion, this method of defining and consuming context helped me build a more modular and maintainable React application with better code readability and consistency.
 
 ## remember to change config in tailwind
-
+Add `darkMode` field in the config and set it to 'class'
 ```javascript
 /** @type {import('tailwindcss').Config} */
 export default {
